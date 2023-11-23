@@ -1,0 +1,15 @@
+<jxb:bindings version="1.0"
+	xmlns:jxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc">
+
+	<jaxb:globalBindings>
+		<xjc:serializable uid="-1" />
+		<xjc:superClass name="com.bbps.jaxb.base.BbpsBase" />
+		<xjc:simple/>
+	</jaxb:globalBindings>
+	<jxb:bindings schemaLocation="../bbps/xsd/Ack.xsd"
+		node="//xsd:schema">
+	</jxb:bindings>
+</jxb:bindings>
